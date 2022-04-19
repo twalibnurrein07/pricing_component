@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Card1 from './components/card1';
-import Card2 from './components/card2';
+import Card1 from './card1';
+import Card2 from './card2';
 
 
 function App() {
@@ -21,7 +21,8 @@ function App() {
         </div>
         <div className='col-lg-4 sm-12'>
         <div className='contacts'>
-        <p style={{color:"black"}}>Are you a corporate?<a href='#'>Contact us</a></p>
+        <h6 style={{color:"black"}}>Are you a corporate?</h6>
+        <p ><a href='#'>Contact us</a></p>
         </div>
         </div>
       </div>
@@ -37,14 +38,14 @@ function App() {
        paragraphText="Plan includes:"
        button="button1"
         list1="Manage conversations directly from your website"
-        list2="Bot without thwe AI service"
+        list2="Bot without the AI service"
         list3="Achieved chat for 30 days"
         list4="Free,for always"
         buttonClass="btn btn-primary"
       />
       </div>
       <div className='col-lg-6 sm-12'>
-      <Card2 style={{backgroundColor:"#051367",color:"white"}} 
+      <Card2 style={{backgroundColor:"#051367",color:"white",fontSize:"13px"}} 
       cardName="proCard"
       headingLeft="Pro"
       customHr="pro-hr"

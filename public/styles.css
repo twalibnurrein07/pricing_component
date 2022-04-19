@@ -12,8 +12,8 @@ body {
 
 .image {
   text-align: center;
-  padding-bottom: 47px;
-  padding-top: 30px;
+  padding-bottom: 27px;
+  padding-top: 20px;
 }
 img {
   width: 170px;
@@ -23,7 +23,7 @@ img {
   padding: 10px;
 }
 .card {
-  border-radius: 12px;
+  border-radius: 25px !important;
 }
 .card.one {
   margin-left: 20px;
@@ -37,7 +37,11 @@ h2 {
 }
 h5 {
   margin: 0 !important;
-  paddingleft: "70px";
+  padding-left: 47px;
+  
+}
+.liteCard,.proCard{
+  border-radius: 25px !important;
 }
 .card-text {
   color: antiquewhite;
@@ -53,16 +57,19 @@ h5 {
   padding: 20px;
   padding-left: 40px;
 }
+.contacts p{
+  text-align: right;
+}
 button {
-  border-radius: 25px;
+  border-radius: 25px !important;
 }
 .button1 {
   text-align: center;
-  padding: 41.4px;
+  padding: 31.4px;
 }
 .button2 {
   text-align: center;
-  padding: 20px;
+  padding: 37px;
 }
 .planName {
   padding: 20px 0 0 40px !important;
@@ -152,6 +159,9 @@ ul li:before {
     padding-left: 20px !important;
     font-size: 10px;
   }
+  .contacts p{
+    text-align: center;
+  }
 }
 @media only screen and (max-width: 545px) {
   h5 {
@@ -167,5 +177,13 @@ ul li:before {
   }
   .planPrice {
     padding: 20px 0 0 0px !important;
+  }
+  .contacts p{
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 991px){
+  .contacts p{
+    text-align: center;
   }
 }
